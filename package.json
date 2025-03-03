@@ -1,10 +1,10 @@
 {
-  "name": "traffic-bot",
+  "name": "traffic.js",
   "version": "1.0.0",
   "description": "Automated traffic generator using Puppeteer",
-  "main": "traffic-bot.js",
+  "main": "traffic.js",
   "scripts": {
-    "start": "node traffic-bot.js"
+    "start": "node traffic.js"
   },
   "dependencies": {
     "puppeteer-extra": "^3.3.0",
