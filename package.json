@@ -2,14 +2,13 @@
   "name": "traffic-bot",
   "version": "1.0.0",
   "description": "Automated traffic generator using Puppeteer",
-  "main": "traffic.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node traffic.js"
+    "start": "node server.js"
   },
   "dependencies": {
-    "puppeteer": "^21.3.3",
-    "puppeteer-extra": "^3.3.0",
-    "puppeteer-extra-plugin-stealth": "^2.11.1"
+    "express": "^4.18.2",
+    "puppeteer": "^21.3.3"
   },
   "engines": {
     "node": ">=16"
